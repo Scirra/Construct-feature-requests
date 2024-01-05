@@ -7,12 +7,14 @@ body:
         Please review the suggestion guidelines otherwise your feature request will not be considered, or end up implemented differently to what you actually intended.
   - type: checkboxes
     id: reviewed-guidelines
+    label: Reviewed guidelines
     attributes:
       options:
         - label: I have read and understand the suggestion guidelines
           required: true
   - type: checkboxes
     id: checked-for-duplicates
+    label: Checked for duplicate suggestions
     attributes:
       options:
         - label: I checked for existing similar suggestions
