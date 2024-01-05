@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Construct forum
+    url: https://www.construct.net/en/forum
+    about: For general help using Construct, post to the forum.
+  - name: Bug reports
+    url: https://github.com/Scirra/Construct-bugs
+    about: For bug reports, please file an issue on our separate bug tracker.
