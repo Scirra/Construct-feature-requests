@@ -8,14 +8,12 @@ body:
   - type: checkboxes
     id: reviewed-guidelines
     attributes:
-      label: Reviewed guidelines
       options:
         - label: I have read and understand the suggestion guidelines
           required: true
   - type: checkboxes
     id: checked-for-duplicates
     attributes:
-      label: Checked for duplicate suggestions
       options:
         - label: I checked for existing similar suggestions
           required: true
