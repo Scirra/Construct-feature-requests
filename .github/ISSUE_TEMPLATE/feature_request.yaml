@@ -1,26 +1,24 @@
 name: Feature request
 description: Submit a new feature request for Construct. Please review the suggestion guidelines, otherwise your feature request will not be considered.
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please review the suggestion guidelines otherwise your feature request will not be considered, or end up implemented differently to what you actually intended.
   - type: checkboxes
     id: reviewed-guidelines
     attributes:
       label: Reviewed guidelines
-      description: Please indicate that you have read and understood the suggestion guidelines.
       options:
-        - label: I have read the suggestion guidelines
+        - label: I have read and understand the suggestion guidelines
           required: true
   - type: checkboxes
     id: checked-for-duplicates
     attributes:
       label: Checked for duplicate suggestions
-      description: Please indicate that you have already checked that this suggestion has not already been made.
       options:
         - label: I checked for existing similar suggestions
           required: true
-  - type: markdown
-    attributes:
-      value: |
-        Please review the suggestion guidelines otherwise your feature request will not be considered, or end up implemented differently to what you actually intended.
   - type: textarea
     id: summary
     attributes:
