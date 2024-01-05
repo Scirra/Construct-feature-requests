@@ -1,0 +1,56 @@
+name: Feature request
+description: Submit a new feature request for Construct. Please review the suggestion guidelines, otherwise your feature request will not be considered, or end up implemented differently to what you actually intended.
+body:
+  - type: checkboxes
+    id: reviewed-guidelines
+    attributes:
+      label: Reviewed guidelines
+      description: Please indicate that you have read and understood the suggestion guidelines.
+      options:
+        - label: I have read the suggestion guidelines
+          required: true
+  - type: checkboxes
+    id: checked-for-duplicates
+    attributes:
+      label: Checked for duplicate suggestions
+      description: Please indicate that you have already checked that this suggestion has not already been made.
+      options:
+        - label: I checked for existing similar suggestions
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please review the suggestion guidelines otherwise your feature request will not be considered, or end up implemented differently to what you actually intended.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Please write a brief summary of your suggestion. Be sure to mention what problem the suggestion is intended to solve.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Possible workarounds or alternatives
+      description: Is it possible to use existing features to achieve the same or a similar result? Write which workarounds or alternatives you've explored or considered here, and explain why they are insufficient and so a new feature is necessary.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Please write a clear and concise summary of your suggestion. This should explain precisely how any new feature will work in enough detail that our team can implement what you suggest. Screenshots of mock-ups can also be helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: importance
+    attributes:
+      label: Why is this idea important?
+      description: Our team gets far more feature requests than we can possibly implement. Please explain why this request is important and should be worked on before all the other requests we get.
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional remarks
+      description: If there is anything else you'd like to mention, you can write it here.
