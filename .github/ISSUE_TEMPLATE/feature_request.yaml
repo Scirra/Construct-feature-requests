@@ -1,5 +1,5 @@
 name: Feature request
-description: Submit a new feature request for Construct. Please review the suggestion guidelines, otherwise your feature request will not be considered, or end up implemented differently to what you actually intended.
+description: Submit a new feature request for Construct. Please review the suggestion guidelines, otherwise your feature request will not be considered.
 body:
   - type: checkboxes
     id: reviewed-guidelines
