@@ -2,6 +2,9 @@
 
 This is where we handle feature request and suggestion submissions for [Construct 3 and Construct Animate](https://www.construct.net/).
 
+>[!NOTE]
+> We routinely get far more suggestions than we could possibly implement. We would do all your ideas if we could! However the sheer volume of ideas and our limited resources means we can only complete a small number of ideas. Please do not be disappointed if we don't act on your suggestion. It does not mean we don't like your idea. It is more likely just because we are inundated with such an extraordinary number of suggestions that it is impossible for us to do them all!
+
 # Read these guidelines or your suggestion will not be considered
 
 There are several reasons your suggestion may end up not being considered, or closed. Please follow these guidelines to make sure the team considers your request.
