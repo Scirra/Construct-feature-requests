@@ -71,6 +71,10 @@ We will make a best-effort attempt to respond to highly-voted ideas, subject to 
 # We do not guarantee implementation of features
 Even if an idea is the top voted one, that **does not guarantee we will implement it.** For all the reasons given here, suggestions may be infeasible, inadequately explained, or risky, no matter how many votes it receives. There are also several other ways we prioritise what to work on, including what we see happening with support requests, bug reports, forum posts, common questions and problems, opportunities created by new technologies, usage statistics, our own business goals, and more. The aim here is just to collect feedback, and the suggestions platform is just another one of several ways that we get feedback from users.
 
+# Community guidelines
+
+Feature requests are subject to our [Forum & Community guidelines](https://www.construct.net/en/forum/general/open-topic-33/forum-community-guidelines-141035). Significant or repeated violations of our community guidelines may result in your suggestion being closed or moderation action such as bans.
+
 # Get started
 
 Thanks for reading our guidelines! You can get started by [visiting the Issues section](https://github.com/Scirra/Construct-feature-requests/issues) where feature requests are submitted. To submit a new suggestion, first check for an existing suggestion, then click the *New issue* button and by *Feature request*, click *Get started*.
