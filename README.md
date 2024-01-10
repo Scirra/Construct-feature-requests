@@ -23,7 +23,7 @@ You can vote on other suggestions to show your support for it. Add a "thumbs up"
 
 ![suggestion-vote](https://github.com/Scirra/Construct-feature-requests/assets/768723/c85514d6-d9d5-4bbe-9816-b366aec597a6)
 
-**Please note:** other reactions may not be counted. Please use this method of voting rather than adding a "me too!" or "+1" comment, which does not count as a vote, and can interfere with any following discussion about the suggestion.
+**Please note:** other reactions may not be counted. [This view](https://github.com/Scirra/Construct-feature-requests/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) is what we look at for the most-voted suggestions, which only counts "thumbs up" reactions. Please use this method of voting rather than adding a "me too!" or "+1" comment, which does not count as a vote, and can interfere with any following discussion about the suggestion.
 
 ## Suggestions are cleared every year
 
