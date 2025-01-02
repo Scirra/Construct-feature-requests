@@ -19,5 +19,5 @@ jobs:
           ignore-updates: true
           remove-stale-when-updated: false
           #Prevent bumping issues to avoid closing.
-          debug-only: true
+          debug-only: false
           #Dry-run: You can run this action in debug only mode (no actions will be taken on your issues and pull requests) by passing debug-only to true as an argument to the action.
