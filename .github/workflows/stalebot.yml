@@ -13,9 +13,9 @@ jobs:
     steps:
       - uses: actions/stale@v9
         with:
-          days-before-stale: -1
+          days-before-stale: 365
           days-before-close: 0
-          #Close immediately after stale.
+          #Close immediately after stale, 365 days.
           ignore-updates: true
           remove-stale-when-updated: false
           #Prevent bumping issues to avoid closing.
