@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/stale@v9
         with:
-          days-before-stale: 1
+          days-before-stale: 0
           days-before-close: 0
           #Close immediately after stale.
           ignore-updates: true
