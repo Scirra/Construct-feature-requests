@@ -1,0 +1,22 @@
+# Full documentation at https://github.com/marketplace/actions/close-stale-issues
+
+name: 'Close stale issues and PRs'
+on:
+  schedule:
+    - cron: '30 1 * * *'
+permissions:
+  issues: write
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          days-before-stale: 1
+          days-before-close: 0
+          #Close immediately after stale.
+          ignore-updates: true
+          remove-stale-when-updated: false
+          #Prevent bumping issues to avoid closing.
+          debug-only: true
+          #Dry-run: You can run this action in debug only mode (no actions will be taken on your issues and pull requests) by passing debug-only to true as an argument to the action.
