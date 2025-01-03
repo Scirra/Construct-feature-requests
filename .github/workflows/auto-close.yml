@@ -1,0 +1,19 @@
+name: 'Auto close suggestions after 1 year'
+on:
+  schedule:
+    - cron: '30 6 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/stale@v9
+        with:
+          days-before-stale: 365
+          days-before-close: 0
+          remove-stale-when-updated: false
+          ignore-updates: true
+          stale-issue-label: expired
+          stale-issue-message: 'This feature request has been open for 1 year and has now expired. Please resubmit it if you still want this suggestion to remain under consideration. See the feature request guidelines for more information.'
