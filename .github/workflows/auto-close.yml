@@ -1,5 +1,6 @@
 name: 'Auto close suggestions after 1 year'
 on:
+  workflow_dispatch:
   schedule:
     - cron: '30 6 * * *'
 
