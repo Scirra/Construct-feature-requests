@@ -25,9 +25,9 @@ You can vote on other suggestions to show your support for it. Add a "thumbs up"
 
 **Please note:** other reactions may not be counted. [This view](https://github.com/Scirra/Construct-feature-requests/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) is what we look at for the most-voted suggestions, which only counts "thumbs up" reactions. Please use this method of voting rather than adding a "me too!" or "+1" comment, which does not count as a vote, and can interfere with any following discussion about the suggestion.
 
-## Suggestions are cleared every year
+## Suggestions are closed after a year
 
-Every year in January all existing suggestions will be archived, and the suggestions list will restart from scratch. This is to ensure suggestions remain relevant to the modern use of Construct, and avoids the suggestion list becoming so long it becomes ineffective. If your suggestion is archived and you still care about it, you'll need to resubmit it.
+Each submitted suggestion will remain open for a year. If they are not acted upon within that time, then they are automatically closed. This is to ensure suggestions remain relevant to the modern use of Construct, and avoids the suggestion list becoming so long it becomes ineffective. If your suggestion is closed and you still care about it, you'll need to resubmit it.
 
 ## Only describe one suggestion per post
 
