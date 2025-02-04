@@ -17,5 +17,6 @@ jobs:
           days-before-close: 0
           remove-stale-when-updated: false
           ignore-updates: true
+          operations-per-run: 100
           stale-issue-label: expired
           stale-issue-message: 'This feature request has been open for 1 year and has now expired. Please resubmit it if you still want this suggestion to remain under consideration. See the feature request guidelines for more information.'
